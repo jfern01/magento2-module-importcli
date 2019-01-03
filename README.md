@@ -1,6 +1,13 @@
 # magento2-module-importcli
 A console command for importing catalog files. Based on [cedricblondeau/magento2-module-catalog-import-command.](https://github.com/cedricblondeau/magento2-module-catalog-import-command)
 
+##Installation
+```
+composer require jfern01/module-importcli
+php bin/magento module:enable Jfern01_ImportCli
+php bin/magento setup:upgrade
+```
+
 ##Usage
 
 ```
