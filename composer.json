@@ -9,12 +9,14 @@
             "name": "Mage2Gen"
         },
         {
-            "email": "jose@crosbyinteractive.com",
+            "email": "self@josefernandez.me",
             "name": "Jose Fernandez"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "magento/module-import-export": "100.*"
+    },
     "autoload": {
         "files": [
             "registration.php"
